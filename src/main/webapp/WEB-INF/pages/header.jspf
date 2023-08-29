@@ -1,0 +1,18 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Spring WEB-MVC Demo</title>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/css/bootstrap.min.css">
+</head>
+<body>
+<div class="alert alert-primary">
+    <div class="container">
+        <h1>Spring Web-MVC</h1>
+    </div>
+</div>
+<div class="container" style="min-height: 400px">
+    <p>
+        <a href="./home" class="btn btn-link">Home</a>
+        <a>|</a>
+        <a href="./all-products" class="btn btn-link" size="10px">All Products</a>
+    </p>
