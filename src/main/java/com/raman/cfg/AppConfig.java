@@ -9,13 +9,16 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
+import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import java.util.Properties;
 
@@ -36,6 +39,10 @@ public class AppConfig implements WebApplicationInitializer, WebMvcConfigurer {
     @Value("${jdbc.pass}")
     private String pass;
 
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addViewController("/price-form").setViewName("price-form");
+    }
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
@@ -52,7 +59,6 @@ public class AppConfig implements WebApplicationInitializer, WebMvcConfigurer {
         servlet.addMapping("/");
         servlet.setLoadOnStartup(1);
     }
-
 
     private SessionFactory factory;
     @Bean("sf")
@@ -78,6 +84,14 @@ public class AppConfig implements WebApplicationInitializer, WebMvcConfigurer {
     @Bean("ssn")
     public Session session(SessionFactory sessionFactory) {
         return sessionFactory.openSession();
+    }
+
+    @Bean
+    public InternalResourceViewResolver viewResolver() {
+        InternalResourceViewResolver irvr = new InternalResourceViewResolver();
+        irvr.setPrefix("/WEB-INF/pages/");
+        irvr.setSuffix(".jsp");
+        return irvr;
     }
 
 }

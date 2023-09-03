@@ -7,12 +7,12 @@
 <body>
 <div class="alert alert-primary">
     <div class="container">
-        <h1>Spring Web-MVC</h1>
+        <h3>Spring Web-MVC Product Management App</h3>
     </div>
 </div>
 <div class="container" style="min-height: 400px">
     <p>
-        <a href="./home" class="btn btn-link">Home</a>
-        <a>|</a>
-        <a href="./all-products" class="btn btn-link" size="10px">All Products</a>
-    </p>
+        <a class="btn btn-primary" data-bs-toggle="tab" href="./">Home</a> |
+        <a class="btn btn-primary" data-bs-toggle="tab" href="./all-products">All Products </a> |
+        <a href="./price-form" class="btn btn-outline-primary">Filter by Price</a> |
+        <a href="./add-product" class="btn btn-primary">Add Product</a>

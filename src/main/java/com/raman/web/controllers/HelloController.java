@@ -8,7 +8,7 @@ public class HelloController {
     @RequestMapping("/hello-mvc")
     public String sayHello() {
         System.out.println("HelloController sayHello() called");
-        return "/WEB-INF/pages/hello.jsp";
+        return "hello";
     }
 
 }

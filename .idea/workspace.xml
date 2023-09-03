@@ -9,7 +9,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07bbd532-b7c9-4945-a131-aa025aa148cb" name="Changes" comment="" />
+    <list default="true" id="07bbd532-b7c9-4945-a131-aa025aa148cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.5-migrated-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/price-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/show-products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/aspects/MyCustomAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/aspects/MyCustomAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/cfg/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/cfg/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/dao/HibernateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/dao/HibernateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/web/controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/web/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/raman/web/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raman/web/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/cfg/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/cfg/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/dao/HibernateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/dao/HibernateDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/entity/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/entity/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/web/controllers/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/web/controllers/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/raman/web/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raman/web/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/cfg/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/cfg/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/dao/HibernateDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/dao/HibernateDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/entity/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/entity/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/web/controllers/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/web/controllers/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/web/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/classes/com/raman/web/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/pages/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/pages/header.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/pages/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-mvc-basics-0.0.1-SNAPSHOT/WEB-INF/pages/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,20 +53,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Jspx File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../Spring/Spring Test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/header.jspf" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/price-form.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo">{
@@ -46,15 +84,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Raman Kumar/Code/Code/01_JAVA/JavaEE/Spring MVC/spring-mvc-basics/src/main/webapp/assets/css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Raman Kumar/Code/Code/01_JAVA/JavaEE/Spring MVC/spring-mvc-basics/src/main/webapp/WEB-INF/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.23387097&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;9e113e6b1ae1b5477dc1cf6410e8b429&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -62,10 +102,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\webapp\WEB-INF\pages" />
+      <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\webapp\WEB-INF\lib" />
       <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\webapp\assets\css" />
       <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\resources" />
       <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\java\com\raman" />
-      <recent name="E:\Raman Kumar\Code\Code\01_JAVA\JavaEE\Spring MVC\spring-mvc-basics\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,11 +244,30 @@
       <workItem from="1693145989033" duration="6737000" />
       <workItem from="1693153535946" duration="2087000" />
       <workItem from="1693208204712" duration="4720000" />
-      <workItem from="1693289885091" duration="2694000" />
+      <workItem from="1693289885091" duration="3163000" />
+      <workItem from="1693293681452" duration="494000" />
+      <workItem from="1693294466075" duration="852000" />
+      <workItem from="1693296073590" duration="6303000" />
+      <workItem from="1693308543985" duration="5416000" />
+      <workItem from="1693372736554" duration="487000" />
+      <workItem from="1693373232456" duration="2949000" />
+      <workItem from="1693397632217" duration="8567000" />
+      <workItem from="1693488975179" duration="6907000" />
+      <workItem from="1693546242294" duration="1586000" />
+      <workItem from="1693579270432" duration="4802000" />
+      <workItem from="1693636524400" duration="33000" />
+      <workItem from="1693668379224" duration="274000" />
+      <workItem from="1693669645736" duration="3116000" />
+      <workItem from="1693743515920" duration="3762000" />
+      <workItem from="1693748492049" duration="2021000" />
+      <workItem from="1693753141441" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_mvc_basics$Tomcat_10_1_8.ic" NAME="Tomcat 10.1.8 Coverage Results" MODIFIED="1693754438825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

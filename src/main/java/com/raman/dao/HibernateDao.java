@@ -2,29 +2,31 @@ package com.raman.dao;
 
 import com.raman.entity.Product;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-@Repository
+@Repository("htDao")
 public class HibernateDao implements ProductDao {
     @Autowired
     private Session session;
+    private Transaction tx;
 
     @Override
     public void addProduct(Product product) throws DaoException {
-        ProductDao.super.addProduct(product);
+        session.persist(product);
     }
 
     @Override
     public void updateProduct(Product product) throws DaoException {
-        ProductDao.super.updateProduct(product);
+        session.merge(product);
     }
 
     @Override
     public Product getProduct(Integer productId) throws DaoException {
-        return ProductDao.super.getProduct(productId);
+        return session.get(Product.class, productId);
     }
 
     @Override
@@ -34,13 +36,16 @@ public class HibernateDao implements ProductDao {
 
     @Override
     public List<Product> getAllProducts() throws DaoException {
-        Query<Product> qry = session.createQuery("from Product", Product.class);
+        Query<Product> qry = session.createQuery("from Product ", Product.class);
         return qry.getResultList();
     }
 
     @Override
     public List<Product> getProductsByPriceRange(Double min, Double max) throws DaoException {
-        return ProductDao.super.getProductsByPriceRange(min, max);
+        Query<Product> qry = session.createQuery("from Product where unitPrice between :MIN_PRICE and :MAX_PRICE", Product.class);
+        qry.setParameter("MIN_PRICE", min);
+        qry.setParameter("MAX_PRICE", max);
+        return qry.getResultList();
     }
 
     @Override
