@@ -60,11 +60,4 @@ public class ProductController {
         model.addAttribute("pr", htDao.getProduct(id));
         return "product-form";
     }
-
-    @ExceptionHandler(Exception.class)
-    public String exceptionHandler(Exception ex, Model model) {
-        log.error(ex.getLocalizedMessage());
-        model.addAttribute("ex", ex);
-        return "err";
-    }
 }
